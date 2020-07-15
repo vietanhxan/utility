@@ -9,7 +9,7 @@
         </div>
         <div class="hotline-bar">
             <a href="tel:{!! $hotline !!}">
-                @if($hotline !== "")
+                @if($hotline !== null)
                 <span class="text-hotline">{!! $hotline !!}</span>
                 @endif
             </a>

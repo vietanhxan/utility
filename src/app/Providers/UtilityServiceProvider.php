@@ -30,6 +30,6 @@ class UtilityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        View::composer('*', SlideComposer::class);
+        View::composer('utility::slide', SlideComposer::class);
     }
 }

@@ -1,5 +1,5 @@
 <section class="hotline">
-    @if($hotline !== "" | $Email !== "" | $Address !== "")
+    @if($hotline !== null | $Email !== null | $Address !== null)
     <li>Hotline: {{$hotline}}</li>
     <li>Email: {{$Email}}</li>
     <li>Address: {{$Address}}</li>
