@@ -41,7 +41,6 @@ class SlideComposer
                 return Post::select('slug', 'thumbnail')->where('type', 'slides')->where('status', 1)->orderBy('id', 'desc')->limit($value)->get();
             });
         }
-
         return Post::select('slug', 'thumbnail')->where('type', 'slides')->where('status', 1)->orderBy('id', 'desc')->limit($value)->get();
     }
 }
